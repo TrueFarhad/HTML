@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Sign In</title>
+</head>
+<body>
+    <form action="action_page.php" method="post">
+
+        <div class="firstname">
+            <label for="firstname">firstname</label>
+            <input for="text" id="firstname" name="firstname" placeholder="alex">
+        </div>
+
+        <br>
+
+        <div class="lastname">
+            <label for="lastname">Lastname</label>
+            <input for="text" id="lastname" name="lastname" placeholder="maxi">
+        </div>
+
+        <br>
+
+        <div class="pass">
+            <label for="pass">password</label>
+            <input type="password" name="pass" maxlength="12">
+        </div>
+
+        <br>
+
+        <div class="email">
+            <label for="email">email</label>
+            <input type="email" name="email" maxlength="50">
+        </div>
+
+        <br>
+
+        <div class="gender">
+            <label>male</label>
+            <input type="radio" name="gender">
+
+            <label>female</label>
+            <input type="radio" name="gender">
+
+            <label>Other</label>
+            <input type="radio" name="gender">
+        </div>
+        <br>
+        <br>
+
+        <div class="choose">
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

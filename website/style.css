@@ -1,0 +1,162 @@
+body{
+    background-image:url(images/shopping-shelves.webp);
+    background-position: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(rgb(243, 219, 4), rgb(170, 3, 3));
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    background: linear-gradient(rgb(243, 219, 4), rgb(170, 3, 3));
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background: linear-gradient(rgb(243, 219, 4), rgb(170, 3, 3));
+  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #444;
+}
+  
+.firstname{
+    display:inline-grid;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffe600;
+}
+
+.lastname{
+    display:inline-grid;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffae00;
+}
+
+.pass{
+    display:inline-grid;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff9100;
+}
+
+.email{
+    display:inline-grid;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff4800;
+}
+
+.gender{
+    display:inline;
+    align-items: center;
+    padding: 10px 4px;
+    background-color: #ff0000;
+}
+.choose{
+    display:inline;
+    align-items:center;
+    padding: 10px 36px;
+    background-color: #ff0040;
+}
